@@ -19,7 +19,7 @@ env:
   SOLACE_MESSAGING_SERVICE: PRODUCTION-solace
 
 jobs:
-  plan:
+  promote-provision:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
